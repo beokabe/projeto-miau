@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: bm
+    volumes:
+      - ./scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    restart: always
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
