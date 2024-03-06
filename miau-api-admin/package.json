@@ -1,0 +1,40 @@
+{
+  "name": "miau-api-admin",
+  "version": "1.0.0",
+  "description": "api que será consumida pelas aplicações públicas e pela equipe do projeto.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beokabe/projeto-miau.git"
+  },
+  "keywords": [
+    "miau-api-admin",
+    "api",
+    "administrativa",
+    "projeto-miau",
+    "projeto-miau",
+    "administrativo",
+    "painel",
+    "administrativo",
+    "admin",
+    "projeto",
+    "miau",
+    "dev",
+    "suporte"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beokabe/projeto-miau/issues"
+  },
+  "homepage": "https://github.com/beokabe/projeto-miau#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
